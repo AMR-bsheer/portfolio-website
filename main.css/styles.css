@@ -1,0 +1,27 @@
+/* Custom styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* About Card */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+}
+
+/* Skills Chart */
+#skillsChart {
+    max-width: 100%;
+    height: auto;
+}

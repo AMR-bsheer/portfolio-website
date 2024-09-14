@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="main.css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 text-center">
+        <div class="container">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img src="images/formal.jpg" class="card-img-top" alt="Your Photo">
+                <div class="card-body">
+                    <h5 class="card-title">Amr Khaled</h5>
+                    <p class="card-text">I'm Amr khaled form Mansoura,Egypt.Computer science student at MUI.I have worked as a photographer and I started web devolping form year.
+                    </p>
+                    <a href="https://www.facebook.com/amrkhaled.basher" target="_blank" class="btn btn-primary"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/Amrbsheer_" target="_blank" class="btn btn-info"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/amr-bsheer-000amrbsheer/" target="_blank" class="btn btn-success"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/_amr_khald_/" target="_blank" class="btn btn-danger"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- projects -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/web.webp" class="card-img-top" alt="مشروع 1">
+                    <div class="card-body">
+                        <h5 class="card-title">مشروع 1: موقع ويب للتجارة الإلكترونية</h5>
+                        <p class="card-text">هذا المشروع عبارة عن موقع ويب للتجارة الإلكترونية يتيح للمستخدمين تصفح المنتجات، إضافتها إلى عربة التسوق، وإتمام عملية الشراء. يستخدم تقنيات HTML، CSS، وJavaScript لتحسين تجربة المستخدم.</p>
+                        <a href="https://example.com/ecommerce" class="btn btn-primary" target="_blank">عرض المزيد</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/app notes.png" class="card-img-top" alt="مشروع 2">
+                    <div class="card-body">
+                        <h5 class="card-title">مشروع 2: تطبيق تدوين ملاحظات</h5>
+                        <p class="card-text">تطبيق ويب يسمح للمستخدمين بإنشاء وتحرير وحذف الملاحظات. يعتمد على تقنيات الـ CRUD (إنشاء، قراءة، تحديث، حذف) ويستخدم JavaScript وواجهة RESTful API للتفاعل مع قاعدة البيانات.</p>
+                        <a href="https://example.com/notes-app" class="btn btn-primary" target="_blank">عرض المزيد</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/لوحة-التحكم3.jpg" class="card-img-top" alt="مشروع 3">
+                    <div class="card-body">
+                        <h5 class="card-title">مشروع 3: لوحة تحكم إدارية</h5>
+                        <p class="card-text">لوحة تحكم إدارية تتيح للمستخدمين إدارة البيانات وتحليلها. تشمل مكونات مثل الرسوم البيانية، الجداول، ونماذج البيانات. يعتمد المشروع على تقنيات الـ Bootstrap وChart.js لإنشاء واجهة مستخدم تفاعلية.</p>
+                        <a href="https://example.com/admin-dashboard" class="btn btn-primary" target="_blank">عرض المزيد</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+<!-- Skills Section -->
+<section id="skills" class="py-5">
+    <div class="container">
+        <h2 class="text-center">My Skills</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6" style="position: relative; height: 40vh;">
+                <canvas id="skillsChart"></canvas>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>Connect with me</p>
+            <a href="https://www.linkedin.com/in/amr-bsheer-000amrbsheer/" target="_blank" class="text-white"><i class="fab fa-linkedin fa-2x mx-2"></i></a>
+            <a href="https://github.com/AMR-bsheer" target="_blank" class="text-white"><i class="fab fa-github fa-2x mx-2"></i></a>
+            <a href="https://www.facebook.com/amrkhaled.basher" target="_blank" class="text-white"><i class="fab fa-facebook fa-2x mx-2"></i></a>
+            <a href="https://x.com/Amrbsheer_" target="_blank" class="text-white"><i class="fab fa-twitter fa-2x mx-2"></i></a>
+            <a href="https://www.instagram.com/_amr_khald_/" target="_blank" class="text-white"><i class="fab fa-instagram fa-2x mx-2"></i></a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap and JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Chart.js for Skills Diagram -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
