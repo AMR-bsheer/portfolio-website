@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const skillsChart = new Chart(ctx, {
         type: 'doughnut',
         data: {
-            labels: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Github,'C#'],
+            labels: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Github','C#']
             datasets: [{
                 label: 'Skill Level',
                 data: [90, 80, 70, 60, 50, 85],
