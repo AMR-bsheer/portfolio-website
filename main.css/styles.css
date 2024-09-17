@@ -1,27 +1,102 @@
-/* Custom styles */
+/* Green Theme Styles */
 body {
+    background-color: #e0f7fa; /* Light greenish background */
+    color: #004d40; /* Dark green text */
     font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #00796b; /* Dark green */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar .nav-link:hover {
+    color: #b2dfdb !important; /* Lighter green */
 }
 
 /* About Card */
 .card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #004d40; /* Dark green */
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Projects */
-.card-img-top {
-    height: 200px;
-    object-fit: cover;
+/* Buttons inside the card */
+.card .btn {
+    background-color: #80cbc4; /* Light green */
+    border: none;
+    color: #004d40;
+}
+
+.card .btn:hover {
+    background-color: #004d40; /* Dark green */
+    color: #ffffff;
+}
+
+/* Circular Profile Image */
+#about .card-img-top {
+    width: 200px; /* Set the width */
+    height: 200px; /* Set the height */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Cover the area without stretching */
+    margin: 0 auto; /* Center the image horizontally */
+    margin-top: -50px; /* Adjust to overlap the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for effect */
+}
+
+/* Adjust "About" card to accommodate circular image */
+#about .card {
+    padding-top: 70px; /* Add space for the circular image */
+}
+
+/* Projects Section */
+#projects {
+    background-color: #e0f2f1; /* Light green */
+}
+
+#projects .card {
+    background-color: #004d40; /* Green */
+    color: #ffffff;
+}
+
+/* Buttons inside project cards */
+#projects .card .btn {
+    background-color: #80cbc4;
+    border: none;
+    color: #004d40;
+}
+
+#projects .card .btn:hover {
+    background-color: #004d40;
+    color: #ffffff;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #e0f7fa; /* Very light green */
+}
+
+#skillsChart {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Footer */
 footer {
-    background: #333;
-    color: white;
+    background-color: #004d40; /* Dark green */
+    color: #ffffff;
 }
 
-/* Skills Chart */
-#skillsChart {
-    max-width: 100%;
-    height: auto;
+footer a {
+    color: #80cbc4; /* Light green */
+}
+
+footer a:hover {
+    color: #ffffff;
 }
